@@ -26,3 +26,22 @@ img{
     width: 100%;
 }
 
+@media all and (max-width: 560px){
+
+.container{
+    min-width: 60vw;
+}
+
+.items{
+    padding: .5em;
+}
+
+.slick-dots{
+    bottom: -50px;
+}
+
+img{
+    width: 100%;
+}
+
+}
