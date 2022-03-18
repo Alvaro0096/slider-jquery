@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404040;
+}
+
+.container{
+    max-width: 70vw;
+}
+
+.items{
+    padding: 2em;
+}
+
+img{
+    width: 100%;
+}
+
